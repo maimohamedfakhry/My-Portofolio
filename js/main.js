@@ -26,14 +26,14 @@ $(window).scroll(function () {
   }
   /************************************************ */
   /********************Animation-services*************************** */
-  if ($(window).scrollTop() > mkanelservices) {
+  if ($(window).scrollTop() == mkanelservices) {
     $("#div-services").attr("data-aos", "fade-up");
   } else {
     $("#div-services").attr("data-aos", "fade-down");
   }
   /********************************************************** */
   /********************Animation-skills*************************** */
-  if ($(window).scrollTop() > mkanelskills) {
+  if ($(window).scrollTop() == mkanelskills) {
     $("#div-skills").attr("data-aos", "fade-up");
   } else {
     $("#div-skills").attr("data-aos", "fade-down");

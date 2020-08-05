@@ -159,6 +159,13 @@ body {
   font-size: 2rem;
   line-height: 1.2;
 }
+.fontsize-h5 {
+  margin: 0.5rem;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  font-family: "Luckiest Guy", cursive;
+}
 .fontsize-h3 {
   margin: 0.5rem;
   font-weight: 300;
@@ -166,7 +173,10 @@ body {
   line-height: 1.2;
   font-family: "Luckiest Guy", cursive;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 601px) and( max-width: 992px) {
+  .fontsize-h5 {
+    font-size: 1.5rem;
+  }
   .fontsize-h1 {
     font-size: 80px;
   }
@@ -175,9 +185,32 @@ body {
   }
   .fontsize-h4 {
     margin: 0.4rem;
-    font-weight: 300;
+
+    font-size: 1.4rem;
+  }
+  .fontsize-h3 {
+    margin: 0.4rem;
     font-size: 2rem;
-    line-height: 1.2;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .fontsize-h5 {
+    font-size: 1.2rem;
+  }
+  .fontsize-h1 {
+    font-size: 60px;
+  }
+  .fontsize-h2 {
+    font-size: 40px;
+  }
+  .fontsize-h4 {
+    margin: 0.2rem;
+
+    font-size: 1.5rem;
+  }
+  .fontsize-h3 {
+    margin: 0.4rem;
+    font-size: 2rem;
   }
 }
 .pink-text {
@@ -299,7 +332,7 @@ body {
   background-repeat: no-repeat;
 }
 .p-height {
-  height: 150px;
+  min-height: 150px;
 }
 .content {
   height: 100%;
