@@ -1,6 +1,5 @@
 /*************************************************************************/
 $(document).ready(function () {
-  $(".forloading").css("display", "flex");
   setTimeout(function () {
     $(".forloading").fadeOut();
     $("body").css("overflow", "auto");
