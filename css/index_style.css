@@ -331,6 +331,20 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.project7 {
+  color: #efefef;
+  background-image: url("../img/restaurantApp.PNG");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.project8 {
+  color: #efefef;
+  background-image: url("../img/Devfolio-Page.PNG");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .p-height {
   min-height: 150px;
 }
