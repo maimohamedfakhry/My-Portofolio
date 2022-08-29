@@ -298,42 +298,42 @@ body {
 }
 .project2 {
   color: #efefef;
-  background-image: url("../img/Bezel-Page.PNG");
+  background-image: url("../img/Game-OnAngularProject.PNG");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .project3 {
   color: #efefef;
-  background-image: url("../img/Game-OnAngularProject.PNG");
+  background-image: url("../img/Kerri-Page.PNG");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .project4 {
   color: #efefef;
-  background-image: url("../img/Kerri-Page.PNG");
+  background-image: url("../img/Eldas-Page.PNG");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .project5 {
   color: #efefef;
-  background-image: url("../img/Fokir-Page.PNG");
+  background-image: url("../img/restaurantApp.PNG");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .project6 {
   color: #efefef;
-  background-image: url("../img/Eldas-Page.PNG");
+  background-image: url("../img/Bezel-Page.PNG");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .project7 {
   color: #efefef;
-  background-image: url("../img/restaurantApp.PNG");
+  background-image: url("../img/Fokir-Page.PNG");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -341,6 +341,13 @@ body {
 .project8 {
   color: #efefef;
   background-image: url("../img/Devfolio-Page.PNG");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.project9 {
+  color: #efefef;
+  background-image: url("../img/elmaraby.PNG");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
